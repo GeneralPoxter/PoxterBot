@@ -1,0 +1,31 @@
+{
+	"auth": "private/auth.json",
+	"format": "p.",
+	"plugins": {
+		"8ball": {
+			"path": "plugins/eightball.py"
+		},
+		"about": {
+			"path": "plugins/about.py"
+		},
+		"hello": {
+			"path": "plugins/hello.py"
+		},
+		"help": {
+			"path": "plugins/help.py",
+			"commands": {
+				"8ball": "Fortunes and advice",
+				"about": "General information",
+				"hello": "Poxter greets you!",
+				"help": "Usage and command list",
+				"[file_name]": "Summon image/file"
+			}
+		},
+		"file": {
+			"path": "plugins/file.py"
+		},
+        "respond": {
+            "path":"plugins/respond.py"
+        }
+	}
+}

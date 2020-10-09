@@ -1,0 +1,6 @@
+version: '3'
+services:
+  bot:
+    build: .
+    image: "poxterbot"
+    container_name: "poxterbot"
