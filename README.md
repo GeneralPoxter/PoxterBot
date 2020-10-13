@@ -1,7 +1,7 @@
 # PoxterBot
 <p align="center"><img src="poxter.jpg" width="100"/></p>
 
-PoxterBot is a fork of [Pearl](https://github.com/defund/pearl). 
+PoxterBot is an implementation of [Pearl](https://github.com/defund/pearl). 
 
 ## Installation
 Follow [Pearl#Prerequisites](https://github.com/defund/pearl#prerequisites).
@@ -14,7 +14,7 @@ In [hangouts](https://hangouts.google.com/), run `p.[command]` in any conversati
 In addition to plugins in Pearl, PoxterBot allows the user to:
 
 **add files**
-* Save all images/files in a folder named `files` in `custom`
+* Save all images/files in the [files](poxter/custom/files) folder
 * Send these images/files using the command `p.[filename]`
 
 **automate responses**
